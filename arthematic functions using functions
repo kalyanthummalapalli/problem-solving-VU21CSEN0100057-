@@ -1,0 +1,24 @@
+#include<stdio.h>  
+void sum();
+void mul();
+void main()  
+{  
+    printf("\nGoing to calculate the sum,sub of two numbers:");  
+    sum(); 
+    mul();
+}  
+void sum()  
+{  
+    int a,b;   
+    printf("\nEnter two numbers");  
+    scanf("%d %d",&a,&b);   
+    printf("The sum is %d",a+b);  
+}  
+void mul()
+{  
+    int a,b;   
+    printf("\nEnter two numbers");  
+    scanf("%d %d",&a,&b);   
+    printf("The mul is %d",a*b);  
+} 
+
